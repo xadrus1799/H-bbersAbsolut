@@ -436,6 +436,16 @@ b i:last-child {
     color: #ffbf00 !important;
 }
 
+#lastletter{
+    unicode-bidi:bidi-override;
+    direction:rtl;
+}
+
+#lastletter:first-letter {
+    color: white;
+}
+
+
 .box-intro h5 {
     letter-spacing: 4px;
     text-transform: uppercase;
