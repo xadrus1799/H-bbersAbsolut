@@ -1182,3 +1182,13 @@ textarea:focus {
         line-height: 30px;
     }
 }
+
+.footer-container {
+    display: flex;
+}
+
+.footer-section {
+    flex: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
