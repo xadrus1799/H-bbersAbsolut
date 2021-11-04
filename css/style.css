@@ -829,7 +829,7 @@ b i:last-child {
 ==================================================*/
 
 footer {
-    padding: 30px 0;
+    padding: 0.2em 0;
     text-align: center;
     background: #f5f5f5
 }
@@ -1195,5 +1195,5 @@ textarea:focus {
 
 .footer-section {
     flex: 1;
-   
+    margin-top: 0.5em;
 }
