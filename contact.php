@@ -7,7 +7,7 @@
 
     $email_from = 'm.huebbers@absolut-huebbers.de';
 
-    $email_subject = "New Form Submission";
+    $email_subject = "Neue Kontaktanfrage";
 
     $email_body = "User Name: $name.\n". 
                     "User Email: $email.\n".
