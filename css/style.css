@@ -828,10 +828,14 @@ b i:last-child {
 /* footer
 ==================================================*/
 
+#license { 
+    background-color: #f5f5f5;
+}
+
 footer {
     padding: 0.2em 0;
     text-align: center;
-    background: #f5f5f5
+    background: #f5f5f5;
 }
 
 .copyright {
