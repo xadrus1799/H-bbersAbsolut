@@ -171,6 +171,10 @@ h5 {
 /* headr
 ==================================================*/
 
+#header { 
+    display: inline; 
+}
+
 .box-header {
     position: absolute;
     top: 0;
