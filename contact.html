@@ -123,7 +123,7 @@
                         </div>
 
                         <div class="col-md-12">
-                            <input id="successAlarm" type="submit" class="btn btn-box" value="ABSENDEN">
+                            <input onclick="formSuc" type="submit" class="btn btn-box" value="ABSENDEN">
                         </div>
 
                         <!--
@@ -186,9 +186,9 @@
     <!--  custom script -->
     <script src="js/custom.js"></script>
     <script>
-        document.getElementById("successAlarm").onclick = function () {
-            alarm("test");
-        };
+        function formSuc(){
+            alarm("Test");
+        }
     </script>
 
 </body>
