@@ -61,7 +61,7 @@
             <ul class="box-primary-nav">
                 <li class="box-label">Hübbers Absolut<p style="color: white; display: inline">.</p></li>
 
-                <li><a href="index.html">Home</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="index.html">Home</a><i class="ion-ios-circle-filled color"></i></li>
                 <li><a href="services.html">Service</a></li>
                 <li><a href="portfolio.html">Kataloge</a></li>
                 <li><a href="contact.html">Kontakt</a></li>
@@ -100,7 +100,7 @@
                     <div class="col-md-6">
                         <div class="input-contact">
                             <input type="text" name="email">
-                            <span>Ihre EMail Adresse</span>
+                            <span>Ihre E-Mail Adresse</span>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -111,8 +111,8 @@
                     </div>
                     <div class="col-md-12">
                         <div class="textarea-contact">
-                            <textarea name="message"></textarea>
-                            <span>Nachricht</span>
+                            <textarea name="message" minlength="20"></textarea>
+                            <span>Nachricht (mindestens 20 Zeichen)</span>
                         </div>
                     </div>
                     
@@ -123,7 +123,7 @@
                         </div>
 
                         <div class="col-md-12">
-                            <input onclick="formSuc" type="submit" class="btn btn-box" value="ABSENDEN">
+                            <input onclick="formSuc()" type="submit" class="btn btn-box" value="ABSENDEN">
                         </div>
 
                         <!--
@@ -142,7 +142,7 @@
             <div class="h-30"></div>
             <p>Ob Sie eine Frage zu einem Artikel, zu einem Katalog oder sogar ein konkretes oder unverbindliches Angebot benötigen, gerne helfe ich Ihnen über die angegebene Telefonnummer oder E-Mail Adresse!</p>
             <div class="contact-info">
-                <p><i class="ion-android-call"></i> 02821/4609003</p>
+                <p><i class="ion-android-call"></i>02821/4609003</p>
                 <p><i class="ion-ios-email"></i> m.huebbers@absolut-huebbers.de</p>
             </div>
         </div>
@@ -187,7 +187,7 @@
     <script src="js/custom.js"></script>
     <script>
         function formSuc(){
-            alert("Test");
+            alert("Ihre Anfrage wurde versendet");
         }
     </script>
 
