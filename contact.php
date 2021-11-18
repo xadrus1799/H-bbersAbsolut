@@ -5,16 +5,16 @@
     $message =  $_Post['message'];
 
 
-    $email_from = 'xadrus1@hotmail.de';
+    $email_from = 'm.huebbers@absolut-huebbers.de';
 
-    $email_subject = "New Form Submission";
+    $email_subject = "Neue Kontaktanfrage";
 
     $email_body = "User Name: $name.\n". 
                     "User Email: $email.\n".
                         "User Subject: $object.\n". 
                             "User Message: $message.\n";
 
-    $to = "xadrus1@hotmail.de";
+    $to = "m.huebbers@absolut-huebbers.de";
     
     $headers = "From: $email_from \r\n";
     
