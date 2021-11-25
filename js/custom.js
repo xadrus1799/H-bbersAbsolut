@@ -2,8 +2,8 @@ $(window).load(function () {
 
     // preloader
     $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(250).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(250).css({
+    $('#preloader').delay(0).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('body').delay(0).css({
         'overflow': 'visible'
     });
 
