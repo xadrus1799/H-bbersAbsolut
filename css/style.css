@@ -850,7 +850,38 @@ footer {
 footer img {
     margin: 0 auto;
 }
+.footer-meta{
+    list-style-type: none;
+    text-align: start;
+}
 
+/* Footer Grid */
+#footer-container{
+    display: grid;
+    grid-template-columns: 50vh 50vh;
+}
+.absolut-metadaten{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: relative;  
+}
+.absolut-contact{
+    grid-column-start: 2;
+    grid-column-start: 3;
+    position: relative; 
+}
+.footer-p{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.footer-meta{
+    box-sizing: border-box;
+    display: inline-block;
+    list-style-position: outside;
+}
 
 /* backto top
 ==================================================*/
@@ -1195,10 +1226,6 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
-}
-
-.footer-container {
-    display: flex;
 }
 
 .footer-section {
