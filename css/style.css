@@ -9,7 +9,7 @@
 	- Header -
     - box intro section -
     - Portfoilo section -
-    - Footer -
+    - Footer - in css/footer-css.css
     - About page -
     - Services page -
     - contact page -
@@ -51,6 +51,7 @@ body {
 .center {
     text-align: center;
 }
+
 
 a {
     -webkit-transition: all .3s;
@@ -829,59 +830,7 @@ b i:last-child {
 }
 
 
-/* footer
-==================================================*/
 
-#license { 
-    background-color: #f5f5f5;
-}
-
-footer {
-    padding: 0.2em 0;
-    text-align: center;
-    background: #f5f5f5;
-}
-
-.copyright {
-    color: #ccc;
-    margin-bottom: 0;
-}
-
-footer img {
-    margin: 0 auto;
-}
-.footer-meta{
-    list-style-type: none;
-    text-align: start;
-}
-
-/* Footer Grid */
-#footer-container{
-    display: grid;
-    grid-template-columns: 50vh 50vh;
-}
-.absolut-metadaten{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    position: relative;  
-}
-.absolut-contact{
-    grid-column-start: 2;
-    grid-column-start: 3;
-    position: relative; 
-}
-.footer-p{
-    box-sizing: border-box;
-    text-transform: uppercase;
-    text-align: left;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-.footer-meta{
-    box-sizing: border-box;
-    display: inline-block;
-    list-style-position: outside;
-}
 
 /* backto top
 ==================================================*/
@@ -1226,9 +1175,4 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
-}
-
-.footer-section {
-    flex: 1;
-    margin-top: 0.5em;
 }
