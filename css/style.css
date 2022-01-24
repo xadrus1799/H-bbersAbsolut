@@ -9,7 +9,7 @@
 	- Header -
     - box intro section -
     - Portfoilo section -
-    - Footer -
+    - Footer - in css/footer-css.css
     - About page -
     - Services page -
     - contact page -
@@ -829,27 +829,6 @@ b i:last-child {
 }
 
 
-/* footer
-==================================================*/
-
-#license { 
-    background-color: #f5f5f5;
-}
-
-footer {
-    padding: 0.2em 0;
-    text-align: center;
-    background: #f5f5f5;
-}
-
-.copyright {
-    color: #ccc;
-    margin-bottom: 0;
-}
-
-footer img {
-    margin: 0 auto;
-}
 
 
 /* backto top
@@ -1195,13 +1174,4 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
-}
-
-.footer-container {
-    display: flex;
-}
-
-.footer-section {
-    flex: 1;
-    margin-top: 0.5em;
 }
