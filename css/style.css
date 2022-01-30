@@ -15,6 +15,7 @@
     - contact page -
     - Portfolio single page -
     - Responsive media queries -
+    - Textmarker -
 */
 
 
@@ -1176,3 +1177,11 @@ textarea:focus {
         line-height: 30px;
     }
 }
+
+/* Textmarker
+==================================================*/
+
+h3 mark {
+    box-decoration-break: clone;
+    background: transparent;
+  }
