@@ -16,24 +16,20 @@
     list-style: none;
     position: relative;
     right: 3em !important;
-
-    
 }
 .footer-col{
     width: 33%;
-    padding: 0 15px;
-    
+    padding: 0 15px;    
 }
-.footer-col h5{
-    font-size: 20px;
+.footer-col h4{
+    font-size: 25px;
     color: #ffffff;
     text-transform: capitalize;
     margin-bottom: 1em;
     font-weight: 500;
     position: relative;
-
 }
-.footer-col h5::before{
+.footer-col h4::before{
     content: '';
     position: absolute;
     left: 0;
@@ -41,8 +37,7 @@
     background-color: #ffbf00;
     height: 2px;
     box-sizing: border-box;
-    width: 40%;
-    
+    width: 40%;  
 }
 /*
 .footer-col ul li:not(:last-chid){
@@ -58,3 +53,29 @@
     color: #bbbbbb;
     display: block;
 }
+
+/* Underline Hover Effekt !BAUSTELLE 
+
+.hover-underline-animaton{
+    display: inline-block; /* so that the underline is just as big as the content 
+    color: #0087ca;
+}
+.hover-underline-animation::after{ /*platziert die Eigenschaften aus dieser Klasse nach dem Content 
+    content: '';
+    width: 100%;
+    position: absolute;
+    transform: scaleX(0); /* to hide the animation without the trigger 
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    background-color: #0087ca;
+}
+.hover-underline-animation:hover:after{ /*platziert die Eigenschaft aus dieser Klasse beim Hovern über die Klasse aber hinter dem Content
+    transform: scaleX(1); /* um die animation zu zeigen bzw zu triggern 
+    transform-origin: bottom left;
+}
+
+
+*/
