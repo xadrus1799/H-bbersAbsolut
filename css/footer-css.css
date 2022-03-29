@@ -4,8 +4,6 @@
 }
 .footer{
     background-color: #24262b;
-    padding: 3em 0;
-    
 }
 .row-footer{
     display: flex;
@@ -19,7 +17,7 @@
 }
 .footer-col{
     width: 33%;
-    padding: 0 15px;    
+    padding: 3em; 
 }
 .footer-col h4{
     font-size: 25px;
@@ -54,6 +52,11 @@
     display: block;
 }
 
+@media only screen and (max-width: 800px) {
+    .container-footer {
+      height: 20em;
+    }
+  }
 /* Underline Hover Effekt !BAUSTELLE 
 
 .hover-underline-animaton{
